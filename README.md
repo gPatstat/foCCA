@@ -6,18 +6,15 @@ FoCCA performs dimensionality reduction on observable features while maximizing 
 
 ⚙️ Commands for importing the useful functions in R:
 
-source("foCCA.fd.R") 
+source("foCCA.fd.R") <br>
+source("foCCA.scores.R") <br>
+source("foCCA.CV.R") <br>
+source("foCCA.confmat.R")<br>
 
-source("foCCA.scores.R") 
-
-source("foCCA.CV.R") 
-
-source("foCCA.confmat.R")
-
-foCCA.fd() : it performs foCCA on a set of functions, given their corresponding levels.
-foCCA.scores() : computes the scores for new functions, given a trained foCCA dimensionality reduction, namely once selected the canonical directions from a training set.
-foCCA.CV(): it performs k-fold cross validation to select the smoothing penalization parameters (λ1 and λ2).
-foCCA.confmat(): it computes the k-fold confusion matrix using the trained foCCA scores and the _nearest centroid classifier_.
+foCCA.fd() : it performs foCCA on a set of functions, given their corresponding levels.<br>
+foCCA.scores() : computes the scores for new functions, given a trained foCCA dimensionality reduction, namely once selected the canonical directions from a training set.<br>
+foCCA.CV(): it performs k-fold cross validation to select the smoothing penalization parameters (λ1 and λ2).<br>
+foCCA.confmat(): it computes the k-fold confusion matrix using the trained foCCA scores and the _nearest centroid classifier_.<br>
 
 📖 Analogous functions for the state-of-the-art dimensionality reduction methods:
 source("pca_scores.R")
