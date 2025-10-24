@@ -4,11 +4,11 @@ FoCCA performs dimensionality reduction on observable features while maximizing 
 ##### 🧪 Usage
 ⚙️ Getting Started: git clone [https://github.com/your-username/project-name.git](https://github.com/gPatstat/foCCA.git)
 
-⚙️ Commands for importing the useful functions in R:
-source("foCCA.fd.R") 
-source("foCCA.scores.R") 
-source("foCCA.CV.R") 
-source("foCCA.confmat.R")
+⚙️ Commands for importing the useful functions in R:\\
+source("foCCA.fd.R") \\
+source("foCCA.scores.R") \\
+source("foCCA.CV.R") \\
+source("foCCA.confmat.R")\\
 
 foCCA.fd() : it performs foCCA on a set of functions, given their corresponding levels.
 foCCA.scores() : computes the scores for new functions, given a trained foCCA dimensionality reduction, namely once selected the canonical directions from a training set.
