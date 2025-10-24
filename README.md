@@ -30,7 +30,7 @@ source("foFD.confmat.R")<br>
 
 source("MAE_calculator.R")
 
-- MAE: given a functional-ordinal dataset it computes the k-fold CV MAE for foCCA, fPCA, foFD, foLR and NCCA.
+- MAE(): given a functional-ordinal dataset it computes the k-fold CV MAE for foCCA, fPCA, foFD, foLR and NCCA.
   
 🔬 Simulations 
 
