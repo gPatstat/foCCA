@@ -17,6 +17,7 @@ source("foCCA.confmat.R")<br>
 -foCCA.confmat(): it computes the k-fold confusion matrix using the trained foCCA scores and the _nearest centroid classifier_.<br>
 
 📖 Analogous functions for the state-of-the-art dimensionality reduction methods:
+
 source("pca_scores.R")<br>
 source("pca.CV.R")<br>
 source("pca.confmat.R")<br>
@@ -24,5 +25,15 @@ source("foFD.fd.R")<br>
 source("foFD.scores.R")<br>
 source("foFD.CV.R")<br>
 source("foFD.confmat.R")<br>
+
+🔬 Simulations
+source("scenarioA.R")<br>
+source("scenarioB.R")<br>
+
+**Scenario A**: the lower $ratio$, the lower the expected ratio between the variance explained by the ordinal variable and the global variance. Lower ratio-> higher difficulty.
+
+**Scenario B**: the lower $ratio$, the less uniform separation between consecutive levels, illustrating greater disparity in the increments for higher levels compared to lower levels. Lower ratio-> higher difficulty.
+
+💻 Run Simulation_study.R to see the comparison and to have an example of usage.
 
 
