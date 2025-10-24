@@ -1,1 +1,1 @@
-# 🚀 Project Name
+### 🚀 Functional-Ordinal Canonical Correlation Analysis
