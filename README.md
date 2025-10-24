@@ -1,7 +1,7 @@
 ### 🚀 Functional-Ordinal Canonical Correlation Analysis (foCCA)
 FoCCA performs dimensionality reduction on observable features while maximizing their capacity to distinguish between successive levels of an ordinal target variable. Unlike many other methods, FoCCA operates entirely in closed form and does not rely on numerical optimization, which ensures both computational efficiency and global optimality. By embedding the ordinal target within the Guttman space, FoCCA fully captures its ordered structure—allowing the model to represent the relative dissimilarities between adjacent target levels and to explain these variations through the underlying functional features.
 
-####🧪 Usage
+#### 🧪 Usage
 ⚙️ Getting Started: git clone [https://github.com/your-username/project-name.git](https://github.com/gPatstat/foCCA.git)
 
 ⚙️ Commands for importing the useful functions in R:
