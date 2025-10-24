@@ -3,19 +3,19 @@ FoCCA performs dimensionality reduction on observable features while maximizing 
 
 ####  Usage
 
-*Getting Started: git clone [https://github.com/gPatstat/foCCA.git](https://github.com/gPatstat/foCCA.git)
+* Getting Started: git clone [https://github.com/gPatstat/foCCA.git](https://github.com/gPatstat/foCCA.git)
 
-*Commands for importing the useful functions in R:
+* Commands for importing the useful functions in R:
 
 source("foCCA.fd.R") <br>
 source("foCCA.scores.R") <br>
 source("foCCA.CV.R") <br>
 source("foCCA.confmat.R")<br>
 
--foCCA.fd() : it performs foCCA on a set of functions, given their corresponding levels.<br>
--foCCA.scores() : computes the scores for new functions, given a trained foCCA dimensionality reduction, namely once selected the canonical directions from a training set.<br>
--foCCA.CV(): it performs k-fold cross validation to select the smoothing penalization parameters (λ1 and λ2).<br>
--foCCA.confmat(): it computes the k-fold confusion matrix using the trained foCCA scores and the _nearest centroid classifier_.<br>
+- foCCA.fd() : it performs foCCA on a set of functions, given their corresponding levels.<br>
+- foCCA.scores() : computes the scores for new functions, given a trained foCCA dimensionality reduction, namely once selected the canonical directions from a training set.<br>
+- foCCA.CV(): it performs k-fold cross validation to select the smoothing penalization parameters (λ1 and λ2).<br>
+- foCCA.confmat(): it computes the k-fold confusion matrix using the trained foCCA scores and the _nearest centroid classifier_.<br>
 
 #### Analogous functions for the state-of-the-art dimensionality reduction methods:
 
